@@ -7,7 +7,7 @@ public class G implements ISomeInterface {
 
     @Override
     public void justHi() {
-        System.out.println("H says hi and passes greeting to its parent");
+        System.out.println("G says hi and passes greeting to its parent");
         nextJustHi();
         System.out.println("And another parent");
         nextJustHi();
